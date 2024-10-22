@@ -1,0 +1,10 @@
+var message = "Your message here";
+var count = 10;
+
+var input = document.querySelector("div._3Uu1_");  
+for (var i = 0; i < count; i++) {
+  input.textContent = message;
+var button = document.querySelector("button.tvf2evcx");  
+ input.dispatchEvent(new Event("input", { bubbles: true }));
+  button.click(); 
+}
